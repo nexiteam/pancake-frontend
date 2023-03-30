@@ -10,7 +10,7 @@ import { MetaMaskConnector } from 'wagmi/connectors/metaMask'
 import { WalletConnectConnector } from 'wagmi/connectors/walletConnect'
 import { LedgerConnector } from 'wagmi/connectors/ledger'
 import { jsonRpcProvider } from 'wagmi/providers/jsonRpc'
-import { SafeConnector } from './safeConnector'
+import { SafeConnector } from '@wagmi/core/connectors/safe'
 
 const CHAINS = [bsc, mainnet, bscTestnet, goerli]
 
